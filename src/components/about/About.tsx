@@ -12,6 +12,7 @@ class About extends React.Component {
   render() {
     return (
       <div className="about">
+        <p>This is about.</p>
         <Greeting />
       </div>
     );
