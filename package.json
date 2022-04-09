@@ -12,10 +12,14 @@
     "@types/react-dom": "^17.0.9",
     "lint-staged": "^12.3.7",
     "prettier": "^2.6.2",
+    "raw.macro": "^0.4.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-helmet-async": "^1.2.3",
+    "react-markdown": "^8.0.2",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
+    "sass": "^1.50.0",
     "source-map-explorer": "^2.5.2",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
@@ -26,7 +30,7 @@
     ]
   },
   "scripts": {
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "analyze": "source-map-explorer build/static/js/*.js",
     "start": "HTTPS=true react-scripts start",
     "start:dev": "react-scripts start",
     "build": "react-scripts build",
