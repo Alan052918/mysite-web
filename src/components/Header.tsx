@@ -33,8 +33,8 @@ class Navbar extends React.Component {
         {this.renderNavLink("/", "home")}
         {this.renderNavLink("/about", "about")}
         {this.renderNavLink("/blogs", "blogs")}
-        {this.renderNavLink("/photos", "photos")}
         {this.renderNavLink("/devs", "devs")}
+        {this.renderNavLink("/photos", "photos")}
       </nav>
     );
   }
