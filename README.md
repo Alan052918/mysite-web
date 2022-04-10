@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Todos
 
-- [] Add responsive layout
-- [] Add Markdown renderer
-- [] Populate home page
-- [] Populate about page
-- [] Populate devs page
-- [] Populate posts page
+- [ ] Add responsive layout
+- [ ] Add Markdown renderer
+- [ ] Populate home page
+- [ ] Populate about page
+- [ ] Populate devs page
+- [ ] Populate posts page
