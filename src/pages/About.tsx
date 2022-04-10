@@ -18,13 +18,7 @@ class SelfIntro extends React.Component {
     return (
       <div className="selfintro">
         <article className="about-markdown">
-          {/* <ReactMarkdown
-            source={markdown}
-            renderers={{
-              Link: LinkRenderer,
-            }}
-            escapeHtml={false}
-          /> */}
+          {/* <ReactMarkdown source={this.markdown} /> */}
         </article>
       </div>
     );

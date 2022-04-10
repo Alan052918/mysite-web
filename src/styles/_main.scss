@@ -1,5 +1,25 @@
-.main-body {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
+.main {
+    // background-color: #eeeeee;
+    display: block;
+
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+    position: relative;
+
+    .main-body {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        .main-body-container {
+            background-color: white;
+            border: solid 1px black;
+
+            padding: 1%;
+            width: 50%;
+        }
+    }
 }

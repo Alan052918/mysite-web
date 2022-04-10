@@ -1,7 +1,24 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import contacts from "../data/contact";
+
+const ContactIcons = () => (
+  <ul className="contact-icons">
+    {contacts.map((s) => (
+      <li key={s.label}>
+        <a href={s.link} target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={s.icon} />
+        </a>
+      </li>
+    ))}
+  </ul>
+);
+
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="content has-text-centered">
+      <ContactIcons />
+      <div className="footer-react">
         <p>
           Powered by{" "}
           <a href="https://reactjs.org" target="_blank" rel="noreferrer">

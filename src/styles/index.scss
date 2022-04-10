@@ -1,5 +1,35 @@
+body {
+    margin: 0;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Roboto",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Fira Sans",
+        "Droid Sans",
+        "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: "JetBrains Mono", Menlo, Monaco, Consolas;
+}
+
+a {
+    text-decoration: none;
+}
+
 @import "vars";
 @import "footer";
 @import "header";
 
-@import "main"
+@import "base";
+
+@import "main";
+@import "icons";
+
+@import "home";

@@ -13,12 +13,12 @@ const routes = [
     path: "/devs",
   },
   {
-    label: "blogs",
-    path: "/blogs",
+    label: "posts",
+    path: "/posts",
   },
   {
-    label: "photos",
-    path: "/photos",
+    label: "contact",
+    path: "/contact",
   },
 ];
 
