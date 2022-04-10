@@ -17,16 +17,14 @@ const ContactIcons = () => (
 const Footer = () => {
   return (
     <footer className="footer main-component">
-      {/* <ContactIcons /> */}
-      <div className="footer-react">
-        <p>
-          Powered by{" "}
-          <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-            React
-          </a>
-          .
-        </p>
-      </div>
+      <ContactIcons />
+      <p>
+        Powered by{" "}
+        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
+          React
+        </a>
+        .
+      </p>
     </footer>
   );
 };
