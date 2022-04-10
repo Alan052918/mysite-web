@@ -1,4 +1,4 @@
-import Main from "./Main";
+import Main from "../components/Main";
 import PinnedPosts from "../components/posts/PinnedPosts";
 import Footer from "../components/Footer";
 

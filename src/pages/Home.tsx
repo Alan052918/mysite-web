@@ -1,4 +1,4 @@
-import Main from "./Main";
+import Main from "../components/Main";
 import Summary from "../components/home/Summary";
 import Footer from "../components/Footer";
 

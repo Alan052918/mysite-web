@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-import Header from "../components/Header";
+import Header from "./Header";
 
 interface MainProps {
   title: string;
