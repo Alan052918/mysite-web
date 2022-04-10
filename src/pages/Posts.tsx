@@ -1,9 +1,12 @@
 import Main from "./Main";
+import PinnedPosts from "../components/posts/PinnedPosts";
+import Footer from "../components/Footer";
 
 const Posts = () => (
   <Main title="posts" description="posts">
     <div className="posts">
-      <p>This is blog posts.</p>
+      <PinnedPosts />
+      <Footer />
     </div>
   </Main>
 );

@@ -15,11 +15,18 @@
         justify-content: center;
 
         .main-body-container {
-            background-color: white;
-            border: solid 1px black;
+            // background-color: white;
+            // border: solid 1px black;
 
-            padding: 1%;
+            // padding: 1%;
             width: 50%;
+
+            .main-component {
+                background-color: white;
+                border: solid 1px black;
+                margin: 1%;
+                padding: 1%;
+            }
         }
     }
 }

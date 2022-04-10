@@ -11,7 +11,6 @@ const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Devs = lazy(() => import("./pages/Devs"));
 const Posts = lazy(() => import("./pages/Posts"));
-const Contact = lazy(() => import("./pages/Contact"));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -21,7 +20,6 @@ const App = () => (
         <Route path="/about" element={<About />} />
         <Route path="/devs" element={<Devs />} />
         <Route path="/posts" element={<Posts />} />
-        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Suspense>
   </BrowserRouter>

@@ -1,7 +1,6 @@
 import { ReactElement } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 interface MainProps {
@@ -19,10 +18,7 @@ const Main = (props: MainProps) => (
     <div className="main">
       <Header />
       <div className="main-body">
-        <div className="main-body-container">
-          {props.children}
-          {/* <Footer /> */}
-        </div>
+        <div className="main-body-container">{props.children}</div>
       </div>
     </div>
   </HelmetProvider>

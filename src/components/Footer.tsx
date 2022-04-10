@@ -16,8 +16,8 @@ const ContactIcons = () => (
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <ContactIcons />
+    <footer className="footer main-component">
+      {/* <ContactIcons /> */}
       <div className="footer-react">
         <p>
           Powered by{" "}
