@@ -24,12 +24,12 @@ a {
 }
 
 @import "vars";
-@import "footer";
-@import "header";
 
 @import "base";
 @import "main";
-@import "icons";
 
+@import "components/footer";
+@import "components/header";
+@import "components/icons";
 @import "components/greeting";
 @import "components/summary";
