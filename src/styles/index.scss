@@ -16,7 +16,7 @@ body {
 }
 
 code {
-    font-family: "JetBrains Mono", Menlo, Monaco, Consolas;
+    font-family: "JetBrains Mono", Menlo, Monaco, Consolas, sans-serif;
 }
 
 a {
@@ -34,3 +34,4 @@ a {
 @import "components/greeting";
 @import "components/summary";
 @import "components/repos";
+@import "components/resume";

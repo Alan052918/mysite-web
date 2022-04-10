@@ -39,7 +39,7 @@ class Education extends React.Component {
 
   render() {
     return (
-      <div className="education">
+      <div className="education main-component">
         This is education.
         {/*{this.renderDegree("", "", "", "", "")}*/}
         {/*{this.renderDegree("", "", "", "", "")}*/}

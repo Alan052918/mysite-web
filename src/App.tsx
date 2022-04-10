@@ -9,6 +9,7 @@ const { PUBLIC_URL } = process.env;
 
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
+const Resume = lazy(() => import("./pages/Resume"));
 const Devs = lazy(() => import("./pages/Devs"));
 const Posts = lazy(() => import("./pages/Posts"));
 
@@ -18,6 +19,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/devs" element={<Devs />} />
         <Route path="/posts" element={<Posts />} />
       </Routes>

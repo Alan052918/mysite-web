@@ -18,8 +18,8 @@ const Footer = () => {
   return (
     <footer className="footer main-component">
       <ContactIcons />
-      <p>Designed and Developed by Junda Ai</p>
-      {/* <p>
+      {/*<p>Designed and Developed by Junda Ai</p>*/}
+      <p>
         Powered by{" "}
         <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           React
@@ -29,7 +29,7 @@ const Footer = () => {
           Spring Boot
         </a>
         .
-      </p> */}
+      </p>
     </footer>
   );
 };
