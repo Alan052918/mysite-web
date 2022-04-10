@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Current status
+
+![Current pages](docs/images/pages.png)
+
 ## Todos
 
 - [ ] Add responsive layout
