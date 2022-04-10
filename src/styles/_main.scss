@@ -1,5 +1,4 @@
 .main {
-    // background-color: #eeeeee;
     display: block;
 
     align-items: center;
@@ -15,16 +14,12 @@
         justify-content: center;
 
         .main-body-container {
-            // background-color: white;
-            // border: solid 1px black;
-
-            // padding: 1%;
             width: 50%;
 
             .main-component {
                 background-color: white;
                 border: solid 1px black;
-                margin: 1%;
+                margin: 3%;
                 padding: 1%;
             }
         }
