@@ -1,0 +1,29 @@
+.repos {
+    display: flex;
+}
+
+.repo {
+    flex: 50%;
+    text-align: center;
+
+    background-color: white;
+    border: solid 1px black;
+    margin: 3%;
+    padding: 1%;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    img {
+        height: 3ch;
+        margin-bottom: 1ch;
+    }
+}
+
+#repo-left {
+    margin-right: 1.5%;
+}
+
+#repo-right {
+    margin-left: 1.5%;
+}
