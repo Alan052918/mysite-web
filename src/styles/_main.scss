@@ -1,12 +1,4 @@
 .main {
-    display: block;
-
-    align-items: center;
-    justify-content: center;
-
-    min-height: 100vh;
-    position: relative;
-
     .main-body {
         display: flex;
 
@@ -14,14 +6,20 @@
         justify-content: center;
 
         .main-body-container {
-            width: 60%;
+            width: 100%;
+        }
 
-            .main-component {
-                background-color: white;
-                border: solid 1px black;
-                margin: 3%;
-                padding: 3%;
+        @media (min-width: 800px) {
+            .main-body-container {
+                width: 800px;
             }
+        }
+
+        .main-component {
+            background-color: white;
+            border: solid 1px black;
+            margin: 3%;
+            padding: 3%;
         }
     }
 }

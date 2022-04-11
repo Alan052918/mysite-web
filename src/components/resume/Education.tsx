@@ -1,11 +1,11 @@
-import React from "react";
+import degrees from "../../data/resume/degrees";
 
 interface DegreeProps {
   school: string;
   degree: string;
   major: string;
-  start_year: string;
-  end_year: string;
+  start_time: string;
+  end_time: string;
 }
 
 const Degree = (props: DegreeProps) => (
@@ -13,39 +13,23 @@ const Degree = (props: DegreeProps) => (
     <p>{props.school}</p>
     <p>{props.degree}</p>
     <p>{props.major}</p>
-    <p>{props.start_year}</p>
-    <p>{props.end_year}</p>
+    <p>{props.start_time}</p>
+    <p>{props.end_time}</p>
   </div>
 );
 
-class Education extends React.Component {
-  renderDegree(
-    school: string,
-    degree: string,
-    major: string,
-    start_year: string,
-    end_year: string
-  ) {
-    return (
+const Education = () => (
+  <div className="education main-component">
+    {degrees.map((d) => (
       <Degree
-        school={school}
-        degree={degree}
-        major={major}
-        start_year={start_year}
-        end_year={end_year}
+        school={d.school}
+        degree={d.degree}
+        major={d.major}
+        start_time={d.start_time}
+        end_time={d.end_time}
       />
-    );
-  }
-
-  render() {
-    return (
-      <div className="education main-component">
-        This is education.
-        {/*{this.renderDegree("", "", "", "", "")}*/}
-        {/*{this.renderDegree("", "", "", "", "")}*/}
-      </div>
-    );
-  }
-}
+    ))}
+  </div>
+);
 
 export default Education;
